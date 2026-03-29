@@ -5,6 +5,8 @@ else:
     print("Odd number")
 
 
+
+
 marks=int(input("Enter your marks: "))
  if marks>=90:
     print("Grade: A")
@@ -14,3 +16,15 @@ marks=int(input("Enter your marks: "))
     print("Grade: C")
  else:
    print("try to work hard")
+     
+
+
+
+num=int(input("Enter a number:"))
+if num>0:
+    print("Positive number")    
+elif num<0:
+    print("Negative number")
+
+else:
+    print("Zero")
